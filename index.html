@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OiNK - 돼지봇</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <div class="ui container">
+        <div class="banner">
+            <img class="ui fluid image" src="img/Banner.png" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+            <div class="ui divider"></div>
+
+            <div class="ui grid">
+                <div class="four column row">
+                  <div class="column">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="ui blue label" style="margin-bottom: 10px;">공식 서버</div>
+                          <div class="header" id="name"></div>
+                        </div>
+                        <div class="content">
+                          <h4 class="ui sub header">멤버</h4>
+                          <div class="ui small feed" id="members">
+                          </div>
+                        </div>
+                        <div class="extra content" id="invite"></div>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="ui blue label" style="margin-bottom: 10px;">초대하기</div>
+                          <div class="header">OiNK를 초대해주세요!</div>
+                        </div>
+                        <div class="content">
+                            <a href="http://enturl.me/oink" target="_blank">http://enturl.me/oink</a>
+                            <br>
+                            <p>최대한 다양한 기능을 제공하기 위해 많은 권한을 요구하고 있습니다. 권한을 주지 않아도 되지만 일부 기능(메시지 삭제 권한 등 특별한 권한이 필요한 기능)이 작동하지 않을 수 있습니다.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="ui blue label" style="margin-bottom: 10px;">명령어</div>
+                          <div class="header">명령어를 만들자</div>
+                        </div>
+                        <div class="content">
+                            <p>열심히 제작하자</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="ui blue label" style="margin-bottom: 10px;">제작자</div>
+                            <br>
+                            <span class="header" style="display: inline !important;">thoratica</span>
+                        </div>
+                        <div class="content">
+                            <img class="ui tiny image" src="https://playentry.org/uploads/discuss/c9/87/image/c9874ffd3a633b2bf2355f72662a3556.png">
+                            <p>나의 정보를 쓰자</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js'></script>
+    <script src="main.js"></script>
+</body>
+</html>
